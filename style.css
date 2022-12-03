@@ -1,0 +1,19 @@
+@media screen and (max-width: 1000px) {
+
+    .column-60,
+    .column-40 {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+
+    #image-div img {
+        margin: auto;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
